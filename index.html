@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<mate charset="utf-8"></mate>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+	<link href="css/Fuck.css" rel="stylesheet" />
+	<link href="css/mdui.min.css" rel="stylesheet" />
+	<script type="text/javascript" src="js/Fuck.js"></script>
+	<script src="js/mdui.min.js" type="text/javascript"></script>
+	<script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+	<link href="css/Forget.css" rel="stylesheet"/>
+	<!-- <script src="js/Forget.js" type="text/javascript"></script> -->
+	<title>Login</title>
+</head>
+
+<body>
+
+	<div id="abc">
+		<div class="mdui-row mdui-row-gapless">
+			<div class="mdui-col-lg-2 mdui-col-sm-2 mdui-col-xs-2"></div>
+			<div class="mdui-col-lg-8 mdui-col-sm-8 mdui-col-xs-8" style="text-align: center;top: 20px;">
+				<a id="FaceTypeSize" >Login</a>
+				<div class="mdui-textfield mdui-textfield-floating-label" style="text-align: left;">
+					<i class="mdui-icon material-icons" style="">mail_outline</i>
+					<label class="mdui-textfield-label">Email</label>
+					<input id="EmailInput"class="mdui-textfield-input" type="email" />
+				</div>
+				<div class="mdui-textfield mdui-textfield-floating-label" style="text-align: left;">
+					<i class="mdui-icon material-icons">dialpad</i>
+					<label class="mdui-textfield-label">Password</label>
+					<input id="PasswordInput"class="mdui-textfield-input" type="password" />
+				</div>
+
+				<div id="Login">
+					<button id="LoginButton" class="mdui-btn mdui-ripple">Login</button>
+					<h id="RePasswordFaceType">忘记密码</h>
+				</div>
+				
+			</div>
+			<div class="mdui-col-lg-2 mdui-col-sm-2 mdui-col-xs-2"></div>
+		</div>
+	</div>
+
+	<div id="WarningTypeFace" class="WarningTypeFace">
+		<div class="warning">
+			<h1 style="font-size: 40px;position: absolute;top: 40%;left: 50%;transform: translate(-50%,-40%);color: #747d8c;">Warning</h1>
+			<h1 id="Tips"style="font-size: 15px;position: absolute;top: 60%;left: 50%;transform: translate(-50%,-60%);"></h1>
+			<div class="warningICON">
+				<i style="color: #ff4757;font-size: 100px;" class="mdui-icon material-icons iconwarn">&#xe5c9;</i>
+			</div>
+			<button id="warningButton" style="position: absolute; left: 50%;top: 90%;transform: translate(-50%,-90%);" class="mdui-btn mdui-ripple warningButton">ok</button>
+		</div>
+	</div>
+
+	<div id="Forget">
+		<div id="ForgetStart">
+			<body class="mdui-bottom-nav-fixed">
+				<h1 style="font-size: 20px;color: #636e72; text-align: center;">重置你的密码</h1>
+				<div id="kuang">
+					<h1 id="TypeFace">请在下方输入您的邮箱。我们会将验证码已邮件的方式发送至您的邮箱</h1>
+					<div id="wenbenkuang" class="mdui-textfield">
+						<div><textarea id="Emailinput"class="mdui-textfield-input" placeholder="邮箱"></textarea></div>
+						<div style="padding-top: 20px;"><textarea id="Codeinput" class="mdui-textfield-input" placeholder="验证码"></textarea></div>
+					</div>
+					<button id="SendButton" class="mdui-btn mdui-ripple">Send Email</button>
+				</div>
+			</body>
+		</div>
+	</div>
+
+
+
+</body>
+
+</html>

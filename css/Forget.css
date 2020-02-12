@@ -1,0 +1,60 @@
+#Forget{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+#ForgetStart{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 350px;
+    width: 380px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    transform: translate(-50%, -50%);
+}
+
+#kuang{
+	position: absolute;
+	height: 250px;
+	width: 300px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #f1f2f6;
+	border: 3px solid #dfe4ea;
+	border-radius: 10px;
+}
+
+
+#TypeFace{
+	font-size: 15px; 
+	padding-left: 20px; 
+	padding-right: 20px;
+	padding-top: 10px;
+	color: #636e72;
+}
+
+#wenbenkuang{
+	position: absolute;
+	width: 200px;
+	left:50%;
+	transform: translateX(-50%);
+}
+
+#SendButton{
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	transform: translateX(-50%);
+	border: 2px solid #dfe4ea;
+	border-radius: 10px;
+	color: #636e72;
+}
+
+#Codeinput{
+    left: 50%;
+    padding-bottom: 10px;
+}
